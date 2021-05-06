@@ -6,7 +6,7 @@ const dbconfig = require('./config.js');
 const connection = mysql.createConnection(dbconfig);
 const app = express();
 
-app.set('port', 8089);
+app.set('port', 4000);
 
 app.get('/', (req, res) => {
   res.send('homepage');
